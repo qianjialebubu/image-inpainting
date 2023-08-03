@@ -1,0 +1,33 @@
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+                batchSize: 1                             
+          checkpoints_dir: ./checkpoints                 
+                  de_root: E:/deeplearing/med2/MED13/test_img/gt_img
+                 fineSize: 256                           
+                  gpu_ids: 0                             
+                 how_many: 50                            
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 6                             
+                  isTrain: False                         	[default: None]
+               lambda_Gan: 0.2                           
+                lambda_L1: 1                             
+                 lambda_P: 0.2                           
+                 lambda_S: 250                           
+                mask_root: /data3/qianjiale_dataset/testing_mask_dataset
+                    model: training1                     
+                 nThreads: 4                             
+               n_layers_D: 3                             
+                     name: Mutual Encoder-Decoder        
+                      ndf: 64                            
+                      ngf: 64                            
+                     norm: instance                      
+                    ntest: inf                           
+              num_workers: 8                             
+                output_nc: 3                             
+                    phase: paris_256                     
+              results_dir: ./results/                    
+                  st_root: /data3/qianjiale_dataset/place2_30000_st
+              use_dropout: False                         
+              which_epoch: 42                            
+----------------- End -------------------
